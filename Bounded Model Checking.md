@@ -1,0 +1,9 @@
+# Bounded Model Checking
+Bounded model checking (BMC) is a [[Model checking|model checking]] technique which searches for a counterexample in executions whose length is bounded by some integer k. If no bug is found then one increases k until either a bug is found, the problem becomes intractable, or some pre-known upper bound is reached. The BMC problem can be efficiently reduced to a propositional satisfiability problem, and can therefore be solved by [[SAT Solver|SAT]] methods rather than [[Binary Decision Diagrams|BDD]]s. SAT procedures do not suffer from the space explosion problem of BDD-based methods. Modern SAT solvers can handle propositional satisfiability problems with hundreds of thousands of variables or more.
+
+Although [[Symbolic Model Checking]] gained wide spread adoption in the industry the BDD-based technique faced bottlenecks in the amount of memory required for storing and manipulating these representations. The Boolean function representations could grow exponentially based on the state space.
+
+Experiments have shown that BMC can solve many cases that cannot be solved by BDD-based techniques. The converse is also true. Additionally, BMC also has the disadvantage of not being able to prove the absence of errors. **Therefore BMC joins the arsenal of automatic verification tools but does not replace any of them** [1]. 
+
+## References
+[1] A. Biere, A. Cimatti, E. M. Clarke, O. Strichman, and Y. Zhu, “Bounded Model Checking,” in _Advances in Computers_, vol. 58, Elsevier, 2003, pp. 117–148. doi: [10.1016/S0065-2458(03)58003-2](https://doi.org/10.1016/S0065-2458(03)58003-2). #on-Zotero 

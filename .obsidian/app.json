@@ -1,0 +1,11 @@
+{
+  "spellcheck": true,
+  "vimMode": true,
+  "readableLineLength": true,
+  "attachmentFolderPath": "./attachments",
+  "communityThemeSortOrder": "download",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "showInlineTitle": false,
+  "strictLineBreaks": true
+}

@@ -1,0 +1,4 @@
+# Focal Plane Array
+A focal plan array (FPA) is an array of light detectors which is placed in the focal plane of an imaging system. Typically, an FGA is a two-dimensional, rectangular array containing multiple photodetectors. Besides the detectors, FPAs can contain additional readout integrated circuits (ROIC) and processing electronics. In an FPA, the two-dimensional array detects incident light and then generates and collects charge, the ROIC clock and converts the collected charge to voltage and transfers the signal to off-chip electronics.
+
+https://www.rp-photonics.com/focal_plane_arrays.html

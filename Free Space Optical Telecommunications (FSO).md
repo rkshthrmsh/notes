@@ -1,0 +1,1 @@
+https://www.axiomoptics.com/application/swir-imaging-applications/?playlist=51915db&video=36de227#:~:text=Free%20Space%20Optical,signal%20propagates%20efficiently.

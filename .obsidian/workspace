@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "47d47f03f9a02d4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "476a0082cb6a24d9",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e11867c1864f6ad1",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ea3a59c72a90c46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83e795539eba0aae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "bounded",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6809e7a3cd481777",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "a6db01f7d64cd292",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a83557cca9a9bf6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b2cce3666049ef8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c003f2df804723ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1e100278ea19c7d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "faeec05ab3ec32f8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1fbe6dfdb01b386d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "476a0082cb6a24d9",
+  "lastOpenFiles": [
+    "Bounded Model Checking.md",
+    "Symbolic Model Checking.md",
+    "Binary Decision Diagrams.md",
+    "Model checking.md",
+    "Formal Methods.md",
+    "Formal Methods in Hardware Design.md",
+    "Indium Gallium Arsenide Sensors.md",
+    "Charge-Coupled Device (CCD).md",
+    "CMOS Sensor.md",
+    "Blooming.md"
+  ]
+}
