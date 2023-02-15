@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "02e976d19c66b90d",
+        "id": "a3626d1e75cc9d15",
         "type": "tabs",
         "children": [
           {
-            "id": "77d8c3a92724c487",
+            "id": "e5bdb88fe10f56c1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git Branching.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -38,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rebase",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 338.5
   },
   "right": {
     "id": "a83557cca9a9bf6d",
@@ -85,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git Branching.md"
-              }
+              "state": {}
             }
           },
           {
@@ -96,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git Branching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git Branching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,6 +121,14 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "22e05585c5bdba47",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ]
       },
@@ -142,7 +142,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Git Branching.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,6 +178,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -187,17 +187,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77d8c3a92724c487",
+  "active": "e5bdb88fe10f56c1",
   "lastOpenFiles": [
-    "2022-08-08.md",
-    "Git Workflows.md",
-    "Git Branching.md",
-    "Git.md",
-    "Git Basics.md",
-    "Hardware Construction Language.md",
-    "Hardware Design Process.md",
-    "Band Gap.md",
-    "Open-Source FPGA Tools.md",
-    "Phase-Locked Loop.md"
+    "Stray Inductance.md",
+    "Python - Control Flow Tools.md",
+    "Xilinx Ultrafast Design Methodology.md",
+    "Board and Device Planning.md",
+    "Bypass Capacitor.md",
+    "Shunt.md",
+    "Focal Plan Array.md",
+    "Capacitor.md",
+    "Signal to Noise Ratio (SNR).md",
+    "Dielectric.md"
   ]
 }

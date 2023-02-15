@@ -1,0 +1,2 @@
+# Shunt
+A shunt refers to an electrical device that creates a low-resistance path for current to pass around another point in the circuit. Examples include bypass capacitors for filtering out high-frequency noise.

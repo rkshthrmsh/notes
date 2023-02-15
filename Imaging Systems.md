@@ -1,6 +1,5 @@
 Modulation Transfer Function
 GSD
-Swath
 F-number
 Focal length
 Aperture size

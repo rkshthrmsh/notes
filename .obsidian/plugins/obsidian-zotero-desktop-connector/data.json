@@ -17,5 +17,6 @@
     }
   ],
   "exportFormats": [],
-  "shouldShowCiteSuggest": false
+  "shouldShowCiteSuggest": false,
+  "exeVersion": "1.0.15"
 }

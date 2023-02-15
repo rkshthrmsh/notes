@@ -1,7 +1,7 @@
 # Git
 #git
 
-Git is a Distributed Version Control System (DVCS). In a DVCS, clients fully mirror the repository, including its full history. This provides additional protection. In situations where a server dies, any of the local client repositories can be copied back to the server to restore it. Development of Git began as a version control tool for the Linux kernel project, and its original goals were: 
+Git is a Distributed Version Control System (DVCS) [1]. In a DVCS, clients fully mirror the repository, including its full history. This provides additional protection. In situations where a server dies, any of the local client repositories can be copied back to the server to restore it. Development of Git began as a version control tool for the Linux kernel project, and its original goals were: 
 - Speed
 - Simple design
 - Strong support for non-linear development (parallel branches)
@@ -36,3 +36,7 @@ All files in Git can only exist in one of two states.
 ![[Pasted image 20230118165514.png]]
 
 Files that need not be a part of the Git Directory can be ignored by creating a `.gitignore` file.
+
+## References
+[1] S. Chacon and B. Straub, _Pro Git_. Berkeley, CA: Apress, 2014. doi: [10.1007/978-1-4842-0076-6](https://doi.org/10.1007/978-1-4842-0076-6).
+
