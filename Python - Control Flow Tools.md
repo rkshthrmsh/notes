@@ -18,7 +18,7 @@ else:
 - However, if iterating over numbers is necessary, the `range()` function can be used. 
 	- `range()` is an `iterable`, i.e., an object capable of returning its members one at a time. Examples of iterables include all sequence types (`list`, `str`, `tuple`) and non-sequence types such as `dict`, file objects, etc. In fact, any object of any class that defines an `__iter__()` method or a `__getitem__()` method that implements sequence semantics is an iterable.
 - The `break` and `continue` statements break out of the innermost loop and continue to the next iteration, respectively.
-- In Python, both `for` and `while` loops support an `else` clause. In `for` it is executed at the exhaustion of the loop iterable and in `while`, when the loop condition is false. The presence of a `break` statement does not affect the execution of the `else` clause.
+- In Python, both `for` and `while` loops support an `else` clause. In `for` it is executed at the exhaustion of the loop iterable and in `while`, when the loop condition is false. However, the execution of a `break` statement skips the execution of the `else` clause.
 ```python
 for <sequence>:
 	<expression>

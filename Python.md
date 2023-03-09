@@ -17,6 +17,7 @@ Finally, Python is extensible. Adding new functions and modules for performing c
 ## Numbers
 - There is full support for floating point numbers. Expressions with mixed (int and float) operands convert operands to float.
 - In interactive mode, the last printed value is assigned to the variable `_`. This allows quick reuse of the previous result.
+- Use `Decimal` for precise values, `float` for speed.
 
 ## Strings
 - Python strings are immutable--they cannot be changed once created.

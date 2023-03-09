@@ -27,3 +27,10 @@ Early stages of the design process have a higher impact on design performance, a
 <img align="left" src="C:\Users\rksht\Desktop\Notes\attachments\Pasted image 20230213222057.png" style="zoom: 20%; padding-right: 20px">
 ### Validating at Each Design Stage
 Xilinx recommends validating the design budgets such as area, power, latency, and timing at each design stage. These milestones should be after elaboration of RTL design, synthesis, and implementation.
+
+The following are key steps in achieving optimal designs.
+[[Board and Device Planning]]
+[[Design Creation with RTL]]
+[[Design Constraints]]
+[[Design Implementation]]
+[[Design Closure]]

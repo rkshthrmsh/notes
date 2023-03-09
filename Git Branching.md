@@ -33,7 +33,7 @@ Remote-tracking branches are references to the state of a remote branch. They re
 
 - `git push <remote> <branchname>:<remote_branchname>` or `git push <branchname>`: Push local branch to the remote branch.
 - `git checkout -b <branch> <remote/branch>` or `git checkout --track <remote/branch>` or `git checkout <remote_branchname>`: Setup tracking branch to track remote branch.
-- `git fetch`+`git merge` or `git pull`: Fetch data from remote branch and merge.
+- `git fetch` + `git merge` or `git pull`: Fetch data from remote branch and merge.
 - `git push <remote> --delete <remote_branchname>`: Delete remote branch 
 
 ## Rebasing

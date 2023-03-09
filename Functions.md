@@ -41,7 +41,7 @@ f(arg1, arg3, kwd1='bar', kwd2='lorem', **kwa) # **kwa unpacks the dictionary
 ```python
 lambda arg1, arg2: arg1 * arg2
 ```
-* Lambda functions are anonymous functions created with the `lambda` keywork.
+* Lambda functions are anonymous functions created with the `lambda` keyword.
 * They are restricted to a single expression.
 * They are syntactic sugar for normal functions.
 * Can be used in expressions that are passed to a function as an argument.

@@ -39,4 +39,3 @@ Files that need not be a part of the Git Directory can be ignored by creating a 
 
 ## References
 [1] S. Chacon and B. Straub, _Pro Git_. Berkeley, CA: Apress, 2014. doi: [10.1007/978-1-4842-0076-6](https://doi.org/10.1007/978-1-4842-0076-6).
-

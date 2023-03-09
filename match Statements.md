@@ -24,9 +24,9 @@ match command.split():
 	case ["drop", *objects]: # multiple patterns
 		for object in objects:
 			character.drop(object)
-	case ["first", (left, right), _ *rest]: # composed patterns
+	case ["first", (left, right), _, *rest]: # composed patterns
 	# will match subjects with at least 3 elements:
-	# 1st = "first", 2nd = sequence of two elements, 3rd = rest
+	# 1st = "first", 2nd = sequence of two elements, 3rd = wildcard, 4th = list of eveerything else
 	case ["north"] | ["go", "north"]: # Or patterns
 		...
 	case ["go", ("north" | "south")]: # sub-pattern matching
