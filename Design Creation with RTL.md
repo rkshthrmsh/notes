@@ -16,3 +16,5 @@ Planning IP requirements is an important stage in every project.
 - While designing custom IP use the industry-standard IP-XACT format as much as possible to ensure that designs can be shared easily.
 
 ## [[RTL Coding Guidelines]]
+
+## Clocking Guidelines

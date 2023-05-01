@@ -1,6 +1,17 @@
 ## RTL Coding Guidelines
 #ultrafastDesign 
 
-### Control Signals and Control Sets
-A control set is any unique grouping of control signals such as set / reset, clock, clock enable, that drives a set of registers, LUTRAMs, or SRLs. All registers within a [[slice]] share common control signals.
-- Designs with too many unique control sets will have wasted resources. Consider for example a slice in which only one of the registers has a load signal. The other registers in this slice become unusable. This results in higher power, lower clock frequency, and reduced flexibility in terms of placement. Therefore, the number of control sets should be minimized. A point worth noting is that undriven resets do not form a part of control sets since they are tied off locally.
+Well designed RTL code can lead to significant improvements in frequency and power consumption. The following are a set of guidelines to assess and improve the device performance.
+
+### [[Control Signals and Control Sets]]
+
+### [[Know What You Infer]]
+
+### [[Coding Styles to Improve Maximum Frequency]]
+
+### [[Coding Styles to Improve Power]]
+
+### [[Performance Power Trade-Off for BRAMs]]
+
+### Running RTL DRCs
+The supporting Design Rule Checks (DRCs) to identify potential issues with HDL code should be run frequently to mitigate issues early in the development process.
