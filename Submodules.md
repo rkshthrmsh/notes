@@ -9,7 +9,7 @@ Using submodules a Git repository can be kept as a subdirectory within another G
   `git clone --recurse-submodules`: Automatically clone, initialize, and update submodules.
 - `git diff --submodule`: Diff submodules. Switch can be run every time by updating `.git/config` variable `diff.submodule` to `log`.
 - `git fetch` + `git merge`: To update submodule fetch and merge submodule from the subdirectory.
-  `git submodule update --remote <submodule>`: Git automatically goes into `submodule` subdirectory and fetches and merges the latest changes. Skip `submodule` to update all submodules within a Git repository. Without modification, Git tracks the default branch of the remote submodule. However, if another branch needs to be tracked, `.gitmodules` can be updated to reflect the same.
+  `git submodule update --remote <submodule>`: Git automatically goes into `submodule` subdirectory and fetches and merges the latest changes. Skip `<submodule>` to update all submodules within a Git repository. Without modification, Git tracks the default branch of the remote submodule. However, if another branch needs to be tracked, `.gitmodules` can be updated to reflect the same.
 - `git status`: The status command can be used to show the status of the submodule changes by setting the `status.submodulesummary` in `.git/config`.
 - `git pull` + `git submodule update --init --recursive`: Pull upstream changes from remote and update all submodules.
   `git pull --recurse-submodules`: Single command to pull and run `git submodule update` right after the pull.

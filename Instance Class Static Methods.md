@@ -1,4 +1,4 @@
-# Instance Method, Class Method, and Static Method
+# Instance Method, Class Method, and Static Methods
 #python 
 
 ```python
@@ -9,12 +9,12 @@ class MyClass():
 
 	# Class method
 	@classmethod
-	def classmethod(cls):
+	def class_method(cls):
 		pass
 
 	# Static method
 	@staticmethod
-	def staticmethod():
+	def static_method():
 		pass
 ```
 
