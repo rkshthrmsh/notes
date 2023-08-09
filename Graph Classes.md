@@ -1,5 +1,19 @@
-## Bipartite Graphs
+## Graph Classes
 #graphTheory 
+
+### Trees
+
+Trees are defined by the following equivalent definitions:
+- A *Tree* is a connected graph without cycles. 
+- It is a connected graph on n vertices with n - 1 edges.
+- A graph is a tree iff there is a unique simple path between any pair of its vertices.
+
+- A path graph is always a tree.
+
+- A *spanning tree* of a graph $G$, is a subgraph of $G$ which is a tree containing all vertices of $G$.
+- A *minimum spanning tree* of a weighted graph $G$ is a spanning tree of the smallest weight. The problem of finding a minimum spanning tree has implications for optimizing network connectivity.
+
+### Bipartite Graphs
 
 - A graph $G$ is *Bipartite* if its vertices can be partitioned into two disjoint sets $L$ and $R$ such that:
 	- Every edge of $G$ connects a vertex $L$ to a vertex in $R$.
@@ -21,3 +35,14 @@
 ### Hall's Theorem
 - **In a bipartite graph $G = (L \cup R, E)$, there is a matching which covers all vertices from L, $iff$ for every subset of vertices $S \subseteq L$, $$|S| \leq |N(S)|$$
 - Here, the *Neighborhood* $N(S)$ of $S$, a subset of vertices $S \subseteq V$ of graph $G = (V, E)$, is defined as the set of all vertices connected to at least one vertex in $S$.
+
+
+### Planar Graphs
+
+- A graph is said to be *planar* if it can be drawn in the plane such that its edges do not meet (cross) except at their end points.
+- Geographical maps are always equivalent to planar graphs.
+![[Pasted image 20230724202237.png]]
+
+### Euler's Formula
+**Let $G$ be a connected planar graph, then** $$v - e + f = 2$$ Where, $v$ is the number of vertices, $e$ is the number of edges, and $f$ is the number of faces in the drawing of $G$.
+![[Pasted image 20230724202807.png]]

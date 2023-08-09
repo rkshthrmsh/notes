@@ -40,18 +40,34 @@ $$G = (V, E)$$
 - A *Cycle Graph* $C_n$, $n \geq 3$, consists of n vertices and n edges. It is a path graph in which the last vertex is connected to the first vertex.
 - A *Complete Graph* $K_n$, $n \geq 2$, contains n vertices and all edges between them (n(n - 1)/2).
 
-## [[Trees]]
+## [[Graph Classes]]
 
-## [[Bipartite Graphs]]
+## [[Graph Cycles]]
 
-## [[Planar Graphs]]
+## [[Graph Parameters]]
 
-## Handshaking Lemma
-- A graph has an even number of vertices of odd degree.
-- For any graph $G(V, E)$, the sum of degrees of all its nodes is twice the number of edges:
-$$\sum_{v\in{V}}^{}degree(v) = 2\cdot|E|$$
-- Each edge contributes 2 to the sum of degrees
+## Flows and Matchings
+### Network
+- A network is a collection of $n$ vertices with a source and a destination.
+- *Capacities* $c[i, j]$ within the network are the edges containing the flow information that connect vertex $i$ to vertex $j$.
+  - $c[i, j] \geq 0 \quad c \in \mathbb{Z}$
+  - In general, $c[i, j] \neq c[j, i]$
 
-## [[Connected Components]]
+- Flow $f[i, j]$ is the amount of information flowing through an edge with capacity $c[i, j]$.
+  - $f[i, j] \leq c[i, j]$
+  - $f[i, j] = -f[j, i]$
+- When there is no spillage, $\sum_{j}f[i, j] = 0$ for every $i$ except the source and destination vertices.
+- Total flow within the network is conserved when thereis no spillage: $\sum_{j}f[A, j] = \sum_{i}f[i, B]$
 
-## [[Eulerian and Hamiltonian Cycles]]
+- A *cut*  is a set of vertices that contains the source but not the destination.
+- The total capacity of a cut is the sum of capacities of all outgoing edges in the cut.
+- The total flow of the network never exceeds the total capacity of any cut.
+
+### Ford and Fulkerson Theorem
+- A *reachable* node is one for which a path exists between the source and the node with non-zero capacity.
+- According to the Ford Fulkerson Theorem, **the maximal flow within a network is equal to the minimal cut**.
+![[Pasted image 20230726093654.png]]
+
+- [[Graph Classes#Hall's Theorem|Hall's Theorem]] is a corollary of Ford and Fulkerson Theorem. When we consider the bipartite graph as having a source and a destination, a complete matching from the left part to the right part is only possible if the flow from the source to the destination can be guaranteed.
+![[Pasted image 20230726100136.png]]
+
