@@ -46,17 +46,19 @@
   "workspace:next-tab": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
-      "key": "PageDown"
+      "key": "]"
     }
   ],
   "workspace:previous-tab": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
-      "key": "PageUp"
+      "key": "["
     }
   ]
 }

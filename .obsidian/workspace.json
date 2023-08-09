@@ -4,18 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "a3626d1e75cc9d15",
+        "id": "409f11443ab4fbed",
         "type": "tabs",
         "children": [
           {
-            "id": "e5bdb88fe10f56c1",
+            "id": "f35af218a835bcb8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "match Statements.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5653b2b5f30a675",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defining an Enum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5dc0b3512d3112ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ababd6678409e19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C Programming Language.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3733abce5d21eb93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defining and Instantiating Structs.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -34,11 +87,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rust struct",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -57,12 +110,19 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
+          },
+          {
+            "id": "556942e53cc2f6d0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -81,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Defining and Instantiating Structs.md"
+              }
             }
           },
           {
@@ -90,6 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Defining and Instantiating Structs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Defining and Instantiating Structs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,6 +206,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Defining and Instantiating Structs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,30 +239,56 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e5bdb88fe10f56c1",
+  "active": "3733abce5d21eb93",
   "lastOpenFiles": [
-    "Stray Inductance.md",
-    "Python - Control Flow Tools.md",
-    "Xilinx Ultrafast Design Methodology.md",
-    "Board and Device Planning.md",
-    "Bypass Capacitor.md",
-    "Shunt.md",
-    "Focal Plan Array.md",
-    "Capacitor.md",
-    "Signal to Noise Ratio (SNR).md",
-    "Dielectric.md"
+    "Traits- Defining Shared Behavior.md",
+    "Graph Theory.md",
+    "Graph Classes.md",
+    "attachments/Pasted image 20230726100136.png",
+    "Graph Parameters.md",
+    "attachments/Pasted image 20230726093654.png",
+    "Graph Coloring.md",
+    "Graph Cycles.md",
+    "Eulerian and Hamiltonian Cycles.md",
+    "Connected Components.md",
+    "Bipartite Graphs.md",
+    "C Programming Language.md",
+    "Planar Graphs.md",
+    "Trees.md",
+    "Digital Signal Processing.md",
+    "attachments/Pasted image 20230724202807.png",
+    "attachments/Pasted image 20230724202237.png",
+    "attachments/Pasted image 20230724194906.png",
+    "P versus NP.md",
+    "NP-Complete.md",
+    "P.md",
+    "NP-Hard.md",
+    "NP.md",
+    "Boolean Satisfiability Problem.md",
+    "attachments/Pasted image 20230724154744.png",
+    "attachments/Pasted image 20230724152844.png",
+    "CPP Programming Language.md",
+    "Git Branching.md",
+    "Operating Systems.md",
+    "match Statements.md",
+    "Advanced Traits.md",
+    "Generic Data Types.md",
+    "attachments/Pasted image 20230616110449.png",
+    "attachments/Pasted image 20230615173321.png",
+    "attachments/Pasted image 20230615161921.png"
   ]
 }
