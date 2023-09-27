@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f35af218a835bcb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "match Statements.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5653b2b5f30a675",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Defining an Enum.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5dc0b3512d3112ec",
             "type": "leaf",
             "state": {
@@ -56,19 +32,27 @@
             }
           },
           {
-            "id": "3733abce5d21eb93",
+            "id": "93a406e62964ca7c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "547e4f4e8d849989",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defining and Instantiating Structs.md",
+                "file": "Elements of Embedded Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rust struct",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -122,11 +106,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 338.5,
+    "collapsed": true
   },
   "right": {
     "id": "a83557cca9a9bf6d",
@@ -142,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defining and Instantiating Structs.md"
+                "file": "Elements of Embedded Linux.md"
               }
             }
           },
@@ -152,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defining and Instantiating Structs.md",
+                "file": "Elements of Embedded Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defining and Instantiating Structs.md",
+                "file": "Elements of Embedded Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Defining and Instantiating Structs.md",
+                "file": "Elements of Embedded Linux.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -253,8 +239,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3733abce5d21eb93",
+  "active": "547e4f4e8d849989",
   "lastOpenFiles": [
+    "Toolchain.md",
+    "Elements of Embedded Linux.md",
+    "attachments/Pasted image 20230926160748.png",
+    "C Programming Language.md",
+    "match Statements.md",
+    "Operating Systems.md",
+    "Defining an Enum.md",
+    "Functions.md",
+    "Enums and Pattern Matching.md",
+    "Defining and Instantiating Structs.md",
     "Traits- Defining Shared Behavior.md",
     "Graph Theory.md",
     "Graph Classes.md",
@@ -266,7 +262,6 @@
     "Eulerian and Hamiltonian Cycles.md",
     "Connected Components.md",
     "Bipartite Graphs.md",
-    "C Programming Language.md",
     "Planar Graphs.md",
     "Trees.md",
     "Digital Signal Processing.md",
@@ -278,17 +273,9 @@
     "P.md",
     "NP-Hard.md",
     "NP.md",
-    "Boolean Satisfiability Problem.md",
     "attachments/Pasted image 20230724154744.png",
     "attachments/Pasted image 20230724152844.png",
-    "CPP Programming Language.md",
-    "Git Branching.md",
-    "Operating Systems.md",
-    "match Statements.md",
-    "Advanced Traits.md",
-    "Generic Data Types.md",
     "attachments/Pasted image 20230616110449.png",
-    "attachments/Pasted image 20230615173321.png",
-    "attachments/Pasted image 20230615161921.png"
+    "attachments/Pasted image 20230615173321.png"
   ]
 }
