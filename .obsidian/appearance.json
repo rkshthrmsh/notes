@@ -1,8 +1,12 @@
 {
   "theme": "system",
-  "translucency": false,
-  "accentColor": "",
+  "translucency": true,
+  "accentColor": "#43b0ea",
   "showViewHeader": false,
   "baseFontSize": 16,
-  "textFontFamily": "Georgia"
+  "textFontFamily": "Georgia",
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "transparent_editor"
+  ]
 }

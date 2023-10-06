@@ -17,6 +17,10 @@
     }
   ],
   "exportFormats": [],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note",
   "shouldShowCiteSuggest": false,
-  "exeVersion": "1.0.15"
+  "exeVersion": "1.0.15",
+  "_exeInternalVersion": 1
 }
