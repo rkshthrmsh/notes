@@ -1,6 +1,5 @@
 ---
 tags:
-  - embeddedLinux
   - flashmem
 ---
 #### NAND Flash

@@ -1,6 +1,5 @@
 ---
 tags:
-  - embeddedLinux
   - flashmem
 ---
 ### Flash Translation Layer

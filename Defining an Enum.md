@@ -28,7 +28,7 @@ let loopback = IpAddr {
     address: String::from("::1"),
 };
 ```
-- However, this can achieve more concisely by **associating data directly with the enum's variants**. Through this mechanism, the name of each enum variant becomes a function that constructs an instance of the enum: `IpAddr::v4()` is a function call that takes a `String` argument and returns an instance of the `IpAddr` type.
+- However, this can be achieved more concisely by **associating data directly with the enum's variants**. Through this mechanism, the name of each enum variant becomes a function that constructs an instance of the enum: `IpAddr::v4()` is a function call that takes a `String` argument and returns an instance of the `IpAddr` type.
 ```rust
 enum IpAddr {
 	v4(String),

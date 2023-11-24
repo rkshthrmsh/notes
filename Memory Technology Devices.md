@@ -1,7 +1,7 @@
 ---
 tags:
-  - embeddedLinux
   - flashmem
+  - embeddedLinux
 ---
 #### Memory Technology Devices
 MTD consists of three layers: a core set of functions, a set of drivers for various types of chips, and user-level drivers that present the flash memory as a character device or a block device, as shown in the following diagram:

@@ -1,6 +1,5 @@
 ---
 tags:
-  - embeddedLinux
   - kernel
 ---
 #### Spinlock

@@ -1,6 +1,5 @@
 ---
 tags:
-  - embeddedLinux
   - flashmem
 ---
 ###### MultiMediaCard and Secure Digital Cards

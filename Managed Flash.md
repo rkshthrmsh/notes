@@ -1,6 +1,5 @@
 ---
 tags:
-  - embeddedLinux
   - flashmem
 ---
 ##### Managed Flash

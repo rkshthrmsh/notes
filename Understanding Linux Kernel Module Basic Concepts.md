@@ -23,7 +23,7 @@ This macro contains the following elements:
 	- `R`, `W`, and `X` are read, write, and execute, respectively.
 	- `USR`, `GRP`, and `UGO` are user; group; and user, group, and others, respectively.
 
-The `OR` operation (`|`) can be used to set multiple permissions. If `perm` is `0`, the file parameter in `sysfs` will not be created.
+The `OR` operation (`|`) can be used to set multiple permissions. If `perm` is `0`, the file parameter in [[sysfs]] will not be created.
 
 When using module parameters, `MODULE_PARM_DESC` can be used on a per-parameter basis to describe each of them. This macro will populate the module information section of each parameter's description.
 
