@@ -38,7 +38,7 @@ static int myarr[3] = {0, 1, 2};
 
 module_param(mystr, charp, S_IRUGO);
 module_param(myint, int, S_IRUGO);
-module_param(myarr, int,NULL, S_IWUSR|S_IRUSR);
+module_param_array(myarr, int, NULL, S_IWUSR|S_IRUSR);
 
 MODULE_PARAM_DESC(mystr, "this is my char pointer variable");
 MODULE_PARAM_DESC(myint, "this is my int variable");

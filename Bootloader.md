@@ -31,7 +31,7 @@ When transferring control to the kernel, the bootloader has to pass some basic i
 - Basic details of the hardware such as size and location of the physical RAM and CPU clock speed.
 - Kernel command line: Which is a plain ASCII string that controls the behavior of Linux.
 - (Optional) Location and size of device tree binary.
-- (Optional) Location and size of an initial RAM disk, called the intial RAM file system (initramfs)
+- (Optional) Location and size of an initial RAM disk, called the initial RAM file system (initramfs)
 ### [[Device Trees]]
 
 ### [[U-Boot]]

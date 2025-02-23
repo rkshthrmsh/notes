@@ -74,7 +74,7 @@ struct file_operations {
 	any attempt to open the device and the driver won't be notified of 
 	the operation. */
 	
-	int (*flush) (struct file *, fl_owner_t id);
+	int (*flush) (struct file *, fl_owner_t);
 	/* This operation is invoked when the file structure is being 
 	released. Like open, release can be NULL. */
 

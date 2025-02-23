@@ -5,7 +5,7 @@ tags:
 #### The `ioctl` Method
 A typical Linux system contains around 350 system calls (syscalls), but only a few of them are linked to file operations. Sometimes, devices may need to implement specific commands that are not provided by system calls, and especially the ones associated with files. In this case, the solution is to use input/output control (**ioctl**), which is a method by which you extend a list of commands associated with a device. You can use it to send special commands to devices (reset, shutdown, configure, and so on). If the driver does not define this method, the kernel will return an `-ENOTTY` error to any `ioctl()` system call.
 ```c
-long ioctl(struct file *f, unsigned int cmd, unsigned long arg);
+	long ioctl(struct file *f, unsigned int cmd, unsigned long arg);
 ```
 
 In the preceding prototype, `f` is the pointer to the file descriptor representing an opened instance of the device, `cmd` is the ioctl command, and `arg` is a user parameter, which can be the address of any user memory on which the driver can call `copy_to_user()` or `copy_from_user()`.

@@ -4,7 +4,7 @@ tags:
   - deviceDrivers
 ---
 #### `sysfs`
-`sysfs` is a represenation of kernel objects, attributes, and relationships. A kernel object is represented as a directory, an attribute is a file, and a relationship is a symbolic link. Practically,  looking in `/sys` provides the kernel's view of the system.
+`sysfs` is a representation of kernel objects, attributes, and relationships. A kernel object is represented as a directory, an attribute is a file, and a relationship is a symbolic link. Practically,  looking in `/sys` provides the kernel's view of the system.
 ##### The Devices: `/sys/devices`
 This is the kernel's view of the devices that have been discovered since boot and how they are connected to each other. It is organized at the top level by the system bus, so what you see varies from one system to another. There are three subdirectories present on all systems:
 - `system/`:  This contains devices at the heart of the system, including CPUs and clocks.

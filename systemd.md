@@ -60,7 +60,7 @@ $ systemctl list-dependencies
 $ systemctl list-units --type service
 
 # List targets and their current state:
-$ systemctl list-units --tupe target
+$ systemctl list-units --type target
 ```
 #### Adding Custom Service
 An example of adding a custom service called `simpleserver` is as follows:
@@ -104,4 +104,4 @@ StartLimitAction=reboot-force
 ```
 In this example, the service expects a `keepalive` call every 30 seconds. If it fails to be delivered, the service will be restarted, but if it is restarted more than four times in 5 minutes, `systemd` will force an immediate reboot.
 
-A watchdog like this takes care of individual services, but what if `systemd` itself fails, the kernel crashes, or the hardware locks up? In those cases, we need to tell systemd to use the watchdog driver: just add `RuntimeWatchdogSec=NN` to `/etc/systemd/ system.conf.systemd`, which will reset the watchdog within that period, and so the system will reset if `systemd` fails for some reason.
+A watchdog like this takes care of individual services, but what if `systemd` itself fails, the kernel crashes, or the hardware locks up? In those cases, we need to tell systemd to use the watchdog driver: just add `RuntimeWatchdogSec=NN` to `/etc/systemd/system.conf.systemd`, which will reset the watchdog within that period, and so the system will reset if `systemd` fails for some reason.
